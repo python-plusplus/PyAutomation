@@ -1,0 +1,33 @@
+from imagesearch import *
+import pythoncom
+time.sleep(4)
+while True:
+    pyautogui.moveTo(760,310,2)
+    pyautogui.click()
+    time.sleep(4)
+    pyautogui.moveTo(820, 555, 3)
+    pyautogui.rightClick()
+    pyautogui.moveTo(820, 538, 1)
+    pyautogui.rightClick()
+    pyautogui.moveTo(820, 538, 1)
+    pyautogui.rightClick()
+    pyautogui.moveTo(820, 538, 1)
+    pyautogui.rightClick()
+    pyautogui.moveTo(906, 538, 1)
+    pyautogui.rightClick()
+    time.sleep(1)
+    pyautogui.moveTo(950, 538, 1)
+    pyautogui.rightClick()
+    pyautogui.moveTo(910, 1000, 1)
+    pyautogui.rightClick()
+    time.sleep(5)
+    pyautogui.rightClick()
+
+'''pyautogui.keyDown('s')
+    time.sleep(2.5)
+    pyautogui.keyUp('s')
+    time.sleep(10)
+    pyautogui.keyDown('w')
+    time.sleep(2.5)
+    pyautogui.keyUp('w')
+    time.sleep(10)'''
